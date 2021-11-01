@@ -1,0 +1,162 @@
+2021-09-24 10:20:08,276 - [test_01login.py-->line:41] - ERROR: 用例：登录成功，执行未通过
+2021-09-24 10:20:08,276 - [test_01login.py-->line:42] - ERROR: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjMyNDUwMDA4LCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzI0Nzg4MDh9.8bc0w9VQdKtRznYXGEpr4RXGHb5lIS7JTLaL-uVBk1U', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01login.py", line 37, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01login.py", line 57, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjMyNDUwMDA4LCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzI0Nzg4MDh9.8bc0w9VQdKtRznYXGEpr4RXGHb5lIS7JTLaL-uVBk1U', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+2021-09-24 10:20:30,272 - [test_01login.py-->line:41] - ERROR: 用例：登录成功，执行未通过
+2021-09-24 10:20:30,273 - [test_01login.py-->line:42] - ERROR: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjMyNDUwMDMwLCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzI0Nzg4MzB9.fp2GdlhKZswKKkU_hSPlkIl8iV8HOFMamF1aWdABheo', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01login.py", line 37, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01login.py", line 57, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjMyNDUwMDMwLCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzI0Nzg4MzB9.fp2GdlhKZswKKkU_hSPlkIl8iV8HOFMamF1aWdABheo', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+2021-10-25 15:35:12,244 - [test_01login.py-->line:41] - ERROR: 用例：登录成功，执行未通过
+2021-10-25 15:35:12,245 - [test_01login.py-->line:42] - ERROR: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjM1MTQ3MzEyLCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzUxNzYxMTJ9.ijNFQO4acLGcol0spSTD8DVsXNlgjVy9kgwUlNav6ig', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01login.py", line 37, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01login.py", line 57, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjM1MTQ3MzEyLCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzUxNzYxMTJ9.ijNFQO4acLGcol0spSTD8DVsXNlgjVy9kgwUlNav6ig', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+2021-10-25 15:35:24,226 - [test_01login.py-->line:41] - ERROR: 用例：登录成功，执行未通过
+2021-10-25 15:35:24,226 - [test_01login.py-->line:42] - ERROR: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjM1MTQ3MzI0LCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzUxNzYxMjR9.j0GQCk1HmiNpPhcaObNlxReriL75ljy_bUKqjv-JKZ4', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01login.py", line 37, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01login.py", line 57, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjM1MTQ3MzI0LCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzUxNzYxMjR9.j0GQCk1HmiNpPhcaObNlxReriL75ljy_bUKqjv-JKZ4', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+2021-10-25 15:35:49,848 - [test_01login.py-->line:41] - ERROR: 用例：登录成功，执行未通过
+2021-10-25 15:35:49,849 - [test_01login.py-->line:42] - ERROR: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjM1MTQ3MzQ5LCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzUxNzYxNDl9.H4kDghOqh4msA4juzcmOM4fGaNb5NzxZhhTAgdkjeb0', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01login.py", line 37, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01login.py", line 57, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjM1MTQ3MzQ5LCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzUxNzYxNDl9.H4kDghOqh4msA4juzcmOM4fGaNb5NzxZhhTAgdkjeb0', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+2021-10-25 15:37:23,717 - [test_01login.py-->line:40] - ERROR: 用例：登录成功，执行未通过
+2021-10-25 15:37:23,718 - [test_01login.py-->line:41] - ERROR: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjM1MTQ3NDQzLCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzUxNzYyNDN9.rYXoU0-3W-xz8L4EMVTjKtARxtVBQ8pCt9RErPwx6pQ', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01login.py", line 36, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01login.py", line 56, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjM1MTQ3NDQzLCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzUxNzYyNDN9.rYXoU0-3W-xz8L4EMVTjKtARxtVBQ8pCt9RErPwx6pQ', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+2021-10-27 11:49:33,719 - [test_01menber.py-->line:46] - ERROR: 用例：登录成功，执行未通过
+2021-10-27 11:49:33,720 - [test_01menber.py-->line:47] - ERROR: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjM1MzA2NTczLCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzUzMzUzNzN9.ZQYCdLMA2r7nM4K-YcHoWhDyKVRy4GhnURe478RtPOg', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 42, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 62, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjM1MzA2NTczLCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzUzMzUzNzN9.ZQYCdLMA2r7nM4K-YcHoWhDyKVRy4GhnURe478RtPOg', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+2021-10-27 11:55:37,347 - [test_01menber.py-->line:46] - ERROR: 用例：登录成功，执行未通过
+2021-10-27 11:55:37,347 - [test_01menber.py-->line:47] - ERROR: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjM1MzA2OTM3LCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzUzMzU3Mzd9.8nzfVocvNI0K_AEg9brtjshrCHFhcLl8YzDeC8GhLmE', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 42, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 62, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0, 'message': '操作成功'} items not in {'code': 0, 'data': {'isBoss': True, 'name': '陈关', 'roleName': '', 'accessToken': 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNjg5IiwiaWF0IjoxNjM1MzA2OTM3LCJzdWIiOiJhbGwiLCJpc3MiOiJ3ZXRvb2wiLCJleHAiOjE2MzUzMzU3Mzd9.8nzfVocvNI0K_AEg9brtjshrCHFhcLl8YzDeC8GhLmE', 'userId': 1689, 'serverId': 0}, 'message': '操作成功!'}
+2021-10-27 11:55:37,540 - [test_01menber.py-->line:46] - ERROR: 用例：新增会员成功，执行未通过
+2021-10-27 11:55:37,540 - [test_01menber.py-->line:47] - ERROR: {'code': 0, 'message': '操作成功'} items not in {'code': 1, 'message': '操作失败!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 42, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 62, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0, 'message': '操作成功'} items not in {'code': 1, 'message': '操作失败!'}
+2021-10-27 11:56:46,664 - [test_01menber.py-->line:51] - INFO: 用例：登录成功，执行通过
+2021-10-27 11:56:46,799 - [test_01menber.py-->line:46] - ERROR: 用例：新增会员成功，执行未通过
+2021-10-27 11:56:46,799 - [test_01menber.py-->line:47] - ERROR: {'code': 0, 'message': '操作成功'} items not in {'code': 1, 'message': '操作失败!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 42, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 62, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0, 'message': '操作成功'} items not in {'code': 1, 'message': '操作失败!'}
+2021-10-27 13:06:54,857 - [test_01menber.py-->line:51] - INFO: 用例：登录成功，执行通过
+2021-10-27 13:06:55,025 - [test_01menber.py-->line:46] - ERROR: 用例：新增会员成功，执行未通过
+2021-10-27 13:06:55,025 - [test_01menber.py-->line:47] - ERROR: {'code': 0, 'message': '操作成功'} items not in {'code': 1, 'message': '操作失败!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 42, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 62, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0, 'message': '操作成功'} items not in {'code': 1, 'message': '操作失败!'}
+2021-10-27 13:13:39,513 - [test_01menber.py-->line:51] - INFO: 用例：登录成功，执行通过
+2021-10-27 15:49:50,762 - [test_01menber.py-->line:51] - INFO: 用例：登录成功，执行通过
+2021-10-28 17:52:51,279 - [test_01menber.py-->line:51] - INFO: 用例：登录成功，执行通过
+2021-10-28 18:00:06,563 - [test_01menber.py-->line:55] - INFO: 用例：登录成功，执行通过
+2021-10-28 18:01:37,903 - [test_01menber.py-->line:57] - INFO: 用例：登录成功，执行通过
+2021-10-28 18:01:41,541 - [test_01menber.py-->line:57] - INFO: 用例：登录成功，执行通过
+2021-10-28 18:03:29,585 - [test_01menber.py-->line:52] - INFO: 用例：登录成功，执行通过
+2021-10-28 18:09:34,773 - [test_01menber.py-->line:53] - INFO: 用例：登录成功，执行通过
+2021-10-28 18:14:22,177 - [test_01menber.py-->line:53] - INFO: 用例：登录成功，执行通过
+2021-10-28 18:16:08,968 - [test_01menber.py-->line:53] - INFO: 用例：登录成功，执行通过
+2021-10-28 18:18:03,751 - [test_01menber.py-->line:54] - INFO: 用例：登录成功，执行通过
+2021-10-28 18:18:03,917 - [test_01menber.py-->line:49] - ERROR: 用例：新增会员成功，执行未通过
+2021-10-28 18:18:03,917 - [test_01menber.py-->line:50] - ERROR: {'code': 0} items not in {'code': 1, 'message': '操作失败!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 45, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 65, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0} items not in {'code': 1, 'message': '操作失败!'}
+2021-10-28 18:20:41,065 - [test_01menber.py-->line:54] - INFO: 用例：登录成功，执行通过
+2021-10-28 18:23:49,682 - [test_01menber.py-->line:54] - INFO: 用例：登录成功，执行通过
+2021-10-28 18:24:43,302 - [test_01menber.py-->line:54] - INFO: 用例：登录成功，执行通过
+2021-10-28 18:24:43,450 - [test_01menber.py-->line:49] - ERROR: 用例：新增会员成功，执行未通过
+2021-10-28 18:24:43,450 - [test_01menber.py-->line:50] - ERROR: {'code': 0} items not in {'code': 1, 'message': '操作失败!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 45, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 65, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0} items not in {'code': 1, 'message': '操作失败!'}
+2021-10-29 11:13:38,645 - [test_01menber.py-->line:51] - INFO: 用例：登录成功，执行通过
+2021-10-29 11:13:38,779 - [test_01menber.py-->line:46] - ERROR: 用例：新增会员成功，执行未通过
+2021-10-29 11:13:38,779 - [test_01menber.py-->line:47] - ERROR: {'code': 0} items not in {'code': 1, 'message': '操作失败!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 42, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 62, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0} items not in {'code': 1, 'message': '操作失败!'}
+2021-10-29 11:27:21,211 - [test_01menber.py-->line:52] - INFO: 用例：登录成功，执行通过
+2021-10-29 11:31:35,627 - [test_01menber.py-->line:52] - INFO: 用例：登录成功，执行通过
+2021-10-29 11:33:23,694 - [test_01menber.py-->line:52] - INFO: 用例：登录成功，执行通过
+2021-10-29 11:35:31,210 - [test_01menber.py-->line:54] - INFO: 用例：登录成功，执行通过
+2021-10-29 11:37:54,290 - [test_01menber.py-->line:53] - INFO: 用例：登录成功，执行通过
+2021-10-29 11:37:54,420 - [test_01menber.py-->line:48] - ERROR: 用例：新增会员成功，执行未通过
+2021-10-29 11:37:54,421 - [test_01menber.py-->line:49] - ERROR: {'code': 0} items not in {'code': 1, 'message': '操作失败!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 44, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 64, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0} items not in {'code': 1, 'message': '操作失败!'}
+2021-10-29 11:45:09,214 - [test_01menber.py-->line:53] - INFO: 用例：登录成功，执行通过
+2021-10-29 11:45:09,353 - [test_01menber.py-->line:48] - ERROR: 用例：新增会员成功，执行未通过
+2021-10-29 11:45:09,354 - [test_01menber.py-->line:49] - ERROR: {'code': 0} items not in {'code': 1, 'message': '操作失败!'}
+Traceback (most recent call last):
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 44, in test_login
+    self.assert_dict_item(expected, res)
+  File "/Users/runnerliu/Desktop/api_test_project02/testcases/test_01menber.py", line 64, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 0} items not in {'code': 1, 'message': '操作失败!'}
+2021-10-29 13:54:51,513 - [test_01menber.py-->line:55] - INFO: 用例：登录成功，执行通过
+2021-10-29 14:14:45,910 - [test_01menber.py-->line:55] - INFO: 用例：登录成功，执行通过
+2021-10-29 14:14:46,179 - [test_01menber.py-->line:55] - INFO: 用例：新增会员，执行通过
+2021-10-29 15:42:01,509 - [test_01menber.py-->line:57] - INFO: 用例：登录成功，执行通过
+2021-10-29 15:43:15,954 - [test_01menber.py-->line:57] - INFO: 用例：登录成功，执行通过
+2021-10-29 15:43:16,213 - [test_01menber.py-->line:57] - INFO: 用例：新增会员，执行通过
+2021-10-29 15:51:35,982 - [test_01menber.py-->line:57] - INFO: 用例：登录成功，执行通过
+2021-10-29 15:52:08,893 - [test_01menber.py-->line:57] - INFO: 用例：登录成功，执行通过
+2021-10-29 15:52:09,143 - [test_01menber.py-->line:57] - INFO: 用例：新增会员，执行通过
+2021-10-29 15:56:12,178 - [test_01menber.py-->line:56] - INFO: 用例：登录成功，执行通过
+2021-10-29 15:56:12,434 - [test_01menber.py-->line:56] - INFO: 用例：新增会员，执行通过
